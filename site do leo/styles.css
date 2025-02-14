@@ -1,0 +1,139 @@
+/* Reset básico para remover margens e paddings padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background: #e07f10;
+    color: #efefef;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    color: #efefef;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+header nav ul li a:hover {
+    background-color: #995d0e;
+    border-radius: 5px;
+}
+
+/* Estilo das seções principais */
+main {
+    margin: 20px 0;
+}
+
+section {
+    background: #efefef;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+/* Estilo da tabela */
+table {s
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+table th, table td {
+    padding: 24px;
+    text-align: left;
+}
+
+table th {
+    background-color: rgb(18, 93, 190);
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilo do rodapé */
+footer {
+    background: #e07f10;
+    color: #efefef;
+    text-align: center;
+    padding: 5px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+.azul {
+    position: absolute;
+    right: 10px;
+    left: 1055px;
+}
+.po {
+    margin: 10px;
+}
+.pa {
+    text-align: center;
+}
+.pu {
+    text-align: center;
+}
+.maneiro {
+    position: relative;
+    left: 483px;
+    border: #333;
+}
+.maneiro1 {
+    position: relative;
+    left: 778px;
+}
+.maneiro2 {
+    position: relative;
+    left: 175px;
+}
+.mato {
+    margin: 20px;
+    text-align: center;
+}
+button {
+    color: black;
+    border-radius: 5px;
+    background-color: none;
+    padding: 10px 10px;
+    text-decoration: none;
+    left: 100px;
+}
